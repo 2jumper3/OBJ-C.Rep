@@ -7,12 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CE4248D62302B57200EF70AE /* NewClass.m in Sources */ = {isa = PBXBuildFile; fileRef = CE4248D52302B57200EF70AE /* NewClass.m */; };
-		CE4248D92302D91000EF70AE /* Delegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE4248D82302D91000EF70AE /* Delegate.m */; };
 		CE4248DC2303052200EF70AE /* Wheel.m in Sources */ = {isa = PBXBuildFile; fileRef = CE4248DB2303052200EF70AE /* Wheel.m */; };
 		CE94077822D5E0E900FDFF20 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE94077722D5E0E900FDFF20 /* main.m */; };
 		CEC219D82303F64100A1C202 /* engine.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC219D72303F64100A1C202 /* engine.m */; };
 		CEC219DB2303FB0600A1C202 /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC219DA2303FB0600A1C202 /* Car.m */; };
+		CEC21A2423042E8A00A1C202 /* BirdsBoys.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC21A2323042E8A00A1C202 /* BirdsBoys.m */; };
+		CEC21A2723042E9800A1C202 /* BirdsGirls.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC21A2623042E9800A1C202 /* BirdsGirls.m */; };
+		CEC21A2A23042EB000A1C202 /* Staya Ptic.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC21A2923042EB000A1C202 /* Staya Ptic.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,10 +29,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		CE4248D42302B57200EF70AE /* NewClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = NewClass.h; path = ../NewClass.h; sourceTree = "<group>"; };
-		CE4248D52302B57200EF70AE /* NewClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = NewClass.m; path = ../NewClass.m; sourceTree = "<group>"; };
-		CE4248D72302D91000EF70AE /* Delegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Delegate.h; path = ../Delegate.h; sourceTree = "<group>"; };
-		CE4248D82302D91000EF70AE /* Delegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = Delegate.m; path = ../Delegate.m; sourceTree = "<group>"; };
 		CE4248DA2303052200EF70AE /* Wheel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Wheel.h; sourceTree = "<group>"; };
 		CE4248DB2303052200EF70AE /* Wheel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Wheel.m; sourceTree = "<group>"; };
 		CE94077422D5E0E900FDFF20 /* Obj-C.Project */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Obj-C.Project"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -40,6 +37,12 @@
 		CEC219D72303F64100A1C202 /* engine.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = engine.m; sourceTree = "<group>"; };
 		CEC219D92303FB0600A1C202 /* Car.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Car.h; path = ../Car.h; sourceTree = "<group>"; };
 		CEC219DA2303FB0600A1C202 /* Car.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Car.m; sourceTree = "<group>"; };
+		CEC21A2223042E8A00A1C202 /* BirdsBoys.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BirdsBoys.h; sourceTree = "<group>"; };
+		CEC21A2323042E8A00A1C202 /* BirdsBoys.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BirdsBoys.m; sourceTree = "<group>"; };
+		CEC21A2523042E9800A1C202 /* BirdsGirls.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BirdsGirls.h; sourceTree = "<group>"; };
+		CEC21A2623042E9800A1C202 /* BirdsGirls.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BirdsGirls.m; sourceTree = "<group>"; };
+		CEC21A2823042EB000A1C202 /* Staya Ptic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Staya Ptic.h"; sourceTree = "<group>"; };
+		CEC21A2923042EB000A1C202 /* Staya Ptic.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Staya Ptic.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,17 +56,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		CE4248DD2303058400EF70AE /* New Group */ = {
-			isa = PBXGroup;
-			children = (
-				CE4248D72302D91000EF70AE /* Delegate.h */,
-				CE4248D82302D91000EF70AE /* Delegate.m */,
-				CE4248D42302B57200EF70AE /* NewClass.h */,
-				CE4248D52302B57200EF70AE /* NewClass.m */,
-			);
-			path = "New Group";
-			sourceTree = "<group>";
-		};
 		CE94076B22D5E0E900FDFF20 = {
 			isa = PBXGroup;
 			children = (
@@ -84,7 +76,6 @@
 			isa = PBXGroup;
 			children = (
 				CEC219DC230408B400A1C202 /* New Group1 */,
-				CE4248DD2303058400EF70AE /* New Group */,
 				CE94077722D5E0E900FDFF20 /* main.m */,
 			);
 			path = "Obj-C.Project";
@@ -93,6 +84,7 @@
 		CEC219DC230408B400A1C202 /* New Group1 */ = {
 			isa = PBXGroup;
 			children = (
+				CEC21A2123042E7800A1C202 /* Птицы */,
 				CE4248DA2303052200EF70AE /* Wheel.h */,
 				CE4248DB2303052200EF70AE /* Wheel.m */,
 				CEC219D62303F64100A1C202 /* engine.h */,
@@ -101,6 +93,19 @@
 				CEC219DA2303FB0600A1C202 /* Car.m */,
 			);
 			path = "New Group1";
+			sourceTree = "<group>";
+		};
+		CEC21A2123042E7800A1C202 /* Птицы */ = {
+			isa = PBXGroup;
+			children = (
+				CEC21A2223042E8A00A1C202 /* BirdsBoys.h */,
+				CEC21A2323042E8A00A1C202 /* BirdsBoys.m */,
+				CEC21A2523042E9800A1C202 /* BirdsGirls.h */,
+				CEC21A2623042E9800A1C202 /* BirdsGirls.m */,
+				CEC21A2823042EB000A1C202 /* Staya Ptic.h */,
+				CEC21A2923042EB000A1C202 /* Staya Ptic.m */,
+			);
+			path = "Птицы";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -159,11 +164,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEC21A2723042E9800A1C202 /* BirdsGirls.m in Sources */,
 				CEC219DB2303FB0600A1C202 /* Car.m in Sources */,
 				CE94077822D5E0E900FDFF20 /* main.m in Sources */,
-				CE4248D62302B57200EF70AE /* NewClass.m in Sources */,
-				CE4248D92302D91000EF70AE /* Delegate.m in Sources */,
 				CEC219D82303F64100A1C202 /* engine.m in Sources */,
+				CEC21A2423042E8A00A1C202 /* BirdsBoys.m in Sources */,
+				CEC21A2A23042EB000A1C202 /* Staya Ptic.m in Sources */,
 				CE4248DC2303052200EF70AE /* Wheel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
