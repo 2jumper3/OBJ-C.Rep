@@ -6,28 +6,58 @@
 //  Copyright © 2019 Sergey. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
-#import "Student.h"
+@import Foundation;
+#import "NewClass.h"
+#import "Delegate.h"
+#import "Car.h"
+#import "Wheel.h"
+#import "engine.h"
+
 
 int main(int argc, const char * argv[]) {
+    
+    NSLog(@"main run...");
+    
+    
+    Car *car = [[Car alloc]init];
+    Wheel *wheel1 = [[Wheel alloc] initWithNumber:@1];
+    Wheel *wheel2 = [[Wheel alloc] initWithNumber:@2];
+    Wheel *wheel3 = [[Wheel alloc] initWithNumber:@3];
+    Wheel *wheel4 = [[Wheel alloc] initWithNumber:@4];
+    
+    NSArray <Wheel *> *wheelsArray = [[NSArray alloc] initWithObjects: wheel1,wheel2,wheel3,wheel4, nil];
+    Engine *engine = [[Engine alloc] initWithModel: @"SR25DETT"];
+    
+    [car insertEngine:engine andWheel:wheelsArray];
+    
+    [engine release];
+    [wheel1 release];
+    [wheel2 release];
+    [wheel3 release];
+    [wheel4 release];
+    
+    [car release];
+
     @autoreleasepool {
-        Student *student = [Student new];
-        Student *student2 = [Student new];
-
-
-
-        student.name = @"ROman";
-        student.lastName =  @"Typovatov";
-        student2.name = @"bla bla1";
         
-        Student *student2 = [[Student alloc] initWithText:@"bla bla"];
-
-
-        NSLog(student.fullName);
-        NSLog(student2.name);
-        student.name = nil;
-        student2.name = nil;
- 
+/*
+   ////new, alloc,copy, muttablecopy
+        NewClass *newClass = [NewClass new];
+        Delegate *delegate = [Delegate new];
+        
+        
+        newClass.delegate = delegate;
+        delegate.strongClass = newClass;
+        
+        delegate = nil;
+        newClass = nil;
+//        [newClass retain]; //увеличивает счетчик на 1
+//        
+//        [newClass release]; // уменьшает счетчик на 1
+        
+        
+        [NSRunLoop.currentRunLoop run];
+ */
 }
-
+    NSLog(@"end");
 }

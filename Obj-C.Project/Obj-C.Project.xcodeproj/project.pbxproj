@@ -7,8 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CE51B21722FABD7B0005B84E /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = CE51B21622FABD7B0005B84E /* Student.m */; };
+		CE4248D62302B57200EF70AE /* NewClass.m in Sources */ = {isa = PBXBuildFile; fileRef = CE4248D52302B57200EF70AE /* NewClass.m */; };
+		CE4248D92302D91000EF70AE /* Delegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE4248D82302D91000EF70AE /* Delegate.m */; };
+		CE4248DC2303052200EF70AE /* Wheel.m in Sources */ = {isa = PBXBuildFile; fileRef = CE4248DB2303052200EF70AE /* Wheel.m */; };
 		CE94077822D5E0E900FDFF20 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE94077722D5E0E900FDFF20 /* main.m */; };
+		CEC219D82303F64100A1C202 /* engine.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC219D72303F64100A1C202 /* engine.m */; };
+		CEC219DB2303FB0600A1C202 /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC219DA2303FB0600A1C202 /* Car.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,10 +28,18 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		CE51B21522FABD7B0005B84E /* Student.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
-		CE51B21622FABD7B0005B84E /* Student.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
+		CE4248D42302B57200EF70AE /* NewClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = NewClass.h; path = ../NewClass.h; sourceTree = "<group>"; };
+		CE4248D52302B57200EF70AE /* NewClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = NewClass.m; path = ../NewClass.m; sourceTree = "<group>"; };
+		CE4248D72302D91000EF70AE /* Delegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Delegate.h; path = ../Delegate.h; sourceTree = "<group>"; };
+		CE4248D82302D91000EF70AE /* Delegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = Delegate.m; path = ../Delegate.m; sourceTree = "<group>"; };
+		CE4248DA2303052200EF70AE /* Wheel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Wheel.h; sourceTree = "<group>"; };
+		CE4248DB2303052200EF70AE /* Wheel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Wheel.m; sourceTree = "<group>"; };
 		CE94077422D5E0E900FDFF20 /* Obj-C.Project */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Obj-C.Project"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE94077722D5E0E900FDFF20 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CEC219D62303F64100A1C202 /* engine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = engine.h; path = ../engine.h; sourceTree = "<group>"; };
+		CEC219D72303F64100A1C202 /* engine.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = engine.m; sourceTree = "<group>"; };
+		CEC219D92303FB0600A1C202 /* Car.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Car.h; path = ../Car.h; sourceTree = "<group>"; };
+		CEC219DA2303FB0600A1C202 /* Car.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Car.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +53,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CE4248DD2303058400EF70AE /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				CE4248D72302D91000EF70AE /* Delegate.h */,
+				CE4248D82302D91000EF70AE /* Delegate.m */,
+				CE4248D42302B57200EF70AE /* NewClass.h */,
+				CE4248D52302B57200EF70AE /* NewClass.m */,
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
 		CE94076B22D5E0E900FDFF20 = {
 			isa = PBXGroup;
 			children = (
@@ -60,11 +83,24 @@
 		CE94077622D5E0E900FDFF20 /* Obj-C.Project */ = {
 			isa = PBXGroup;
 			children = (
+				CEC219DC230408B400A1C202 /* New Group1 */,
+				CE4248DD2303058400EF70AE /* New Group */,
 				CE94077722D5E0E900FDFF20 /* main.m */,
-				CE51B21522FABD7B0005B84E /* Student.h */,
-				CE51B21622FABD7B0005B84E /* Student.m */,
 			);
 			path = "Obj-C.Project";
+			sourceTree = "<group>";
+		};
+		CEC219DC230408B400A1C202 /* New Group1 */ = {
+			isa = PBXGroup;
+			children = (
+				CE4248DA2303052200EF70AE /* Wheel.h */,
+				CE4248DB2303052200EF70AE /* Wheel.m */,
+				CEC219D62303F64100A1C202 /* engine.h */,
+				CEC219D72303F64100A1C202 /* engine.m */,
+				CEC219D92303FB0600A1C202 /* Car.h */,
+				CEC219DA2303FB0600A1C202 /* Car.m */,
+			);
+			path = "New Group1";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,8 +159,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEC219DB2303FB0600A1C202 /* Car.m in Sources */,
 				CE94077822D5E0E900FDFF20 /* main.m in Sources */,
-				CE51B21722FABD7B0005B84E /* Student.m in Sources */,
+				CE4248D62302B57200EF70AE /* NewClass.m in Sources */,
+				CE4248D92302D91000EF70AE /* Delegate.m in Sources */,
+				CEC219D82303F64100A1C202 /* engine.m in Sources */,
+				CE4248DC2303052200EF70AE /* Wheel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,7 +180,7 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
@@ -199,7 +239,7 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
